@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+<!-- jquery -->
+<script src="https://code.jquery.com/jquery-latest.min.js"></script>
+</head>
+    <body onload="init()">
+
+        <canvas id="myCanvas" style="background-color:aliceblue" width="400" height="300">
+
+        </canvas>
+        <div class="maincontainer">
+            <div class="container1">
+                <div ontouchmove="getCursorTouch(event)"  draggable="true" class="item"></div>
+            </div>
+            <div class="container2"></div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
